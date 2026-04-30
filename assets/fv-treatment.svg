@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900">
+  <defs>
+    <linearGradient id="roomBg" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#f1f8e9"/>
+      <stop offset="100%" stop-color="#dcedc8"/>
+    </linearGradient>
+    <linearGradient id="tableTop" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#a5d6a7"/>
+      <stop offset="100%" stop-color="#81c784"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 室内背景 -->
+  <rect width="1400" height="900" fill="url(#roomBg)"/>
+  <!-- 壁 -->
+  <rect x="0" y="0" width="1400" height="568" fill="#fafffe" opacity="0.82"/>
+  <!-- 床 -->
+  <rect x="0" y="568" width="1400" height="332" fill="#e8f5e9" opacity="0.7"/>
+  <line x1="0" y1="568" x2="1400" y2="568" stroke="#a5d6a7" stroke-width="3"/>
+
+  <!-- 左窓 -->
+  <rect x="68" y="72" width="228" height="316" rx="8" fill="#b3e5fc" opacity="0.42"/>
+  <rect x="68" y="72" width="228" height="316" rx="8" fill="none" stroke="white" stroke-width="5"/>
+  <line x1="182" y1="72" x2="182" y2="388" stroke="white" stroke-width="3.5"/>
+  <line x1="68" y1="230" x2="296" y2="230" stroke="white" stroke-width="3.5"/>
+  <!-- 窓からの光 -->
+  <polygon points="68,388 296,388 430,568 0,568" fill="#fffde7" opacity="0.14"/>
+
+  <!-- 右窓 -->
+  <rect x="1102" y="88" width="218" height="278" rx="8" fill="#b3e5fc" opacity="0.38"/>
+  <rect x="1102" y="88" width="218" height="278" rx="8" fill="none" stroke="white" stroke-width="5"/>
+  <line x1="1211" y1="88" x2="1211" y2="366" stroke="white" stroke-width="3.5"/>
+  <line x1="1102" y1="227" x2="1320" y2="227" stroke="white" stroke-width="3.5"/>
+
+  <!-- 資格証フレーム1 -->
+  <rect x="392" y="52" width="138" height="108" rx="6" fill="white" opacity="0.93"/>
+  <rect x="400" y="60" width="122" height="92" rx="4" fill="#f9fbe7"/>
+  <rect x="416" y="68" width="52" height="9" rx="2" fill="#a5d6a7" opacity="0.65"/>
+  <line x1="416" y1="85" x2="514" y2="85" stroke="#c8e6c9" stroke-width="1.5"/>
+  <line x1="416" y1="101" x2="514" y2="101" stroke="#c8e6c9" stroke-width="1.5"/>
+  <line x1="416" y1="117" x2="495" y2="117" stroke="#c8e6c9" stroke-width="1.5"/>
+  <line x1="416" y1="133" x2="500" y2="133" stroke="#c8e6c9" stroke-width="1.5"/>
+
+  <!-- 資格証フレーム2 -->
+  <rect x="558" y="58" width="128" height="98" rx="6" fill="white" opacity="0.93"/>
+  <rect x="566" y="66" width="112" height="82" rx="4" fill="#f9fbe7"/>
+  <rect x="582" y="74" width="46" height="9" rx="2" fill="#a5d6a7" opacity="0.65"/>
+  <line x1="582" y1="91" x2="670" y2="91" stroke="#c8e6c9" stroke-width="1.5"/>
+  <line x1="582" y1="107" x2="670" y2="107" stroke="#c8e6c9" stroke-width="1.5"/>
+  <line x1="582" y1="123" x2="652" y2="123" stroke="#c8e6c9" stroke-width="1.5"/>
+
+  <!-- 医療十字マーク（壁） -->
+  <circle cx="858" cy="94" r="56" fill="#e8f5e9" opacity="0.82"/>
+  <rect x="845" y="56" width="26" height="76" rx="6" fill="#2d8a6e" opacity="0.42"/>
+  <rect x="818" y="82" width="80" height="26" rx="6" fill="#2d8a6e" opacity="0.42"/>
+
+  <!-- 左の観葉植物 -->
+  <rect x="40" y="492" width="22" height="76" rx="5" fill="#6d4c41" opacity="0.78"/>
+  <path d="M18 568 L32 508 L62 508 L76 568 Z" fill="#8d6e63" opacity="0.72"/>
+  <ellipse cx="51" cy="464" rx="58" ry="74" fill="#388e3c" opacity="0.76"/>
+  <ellipse cx="22" cy="496" rx="38" ry="56" fill="#43a047" opacity="0.66"/>
+  <ellipse cx="80" cy="490" rx="36" ry="52" fill="#2e7d32" opacity="0.66"/>
+
+  <!-- 右の観葉植物 -->
+  <rect x="1340" y="504" width="22" height="64" rx="5" fill="#6d4c41" opacity="0.78"/>
+  <path d="M1318 568 L1330 512 L1362 512 L1374 568 Z" fill="#8d6e63" opacity="0.72"/>
+  <ellipse cx="1351" cy="480" rx="54" ry="68" fill="#2e7d32" opacity="0.76"/>
+  <ellipse cx="1322" cy="508" rx="36" ry="52" fill="#43a047" opacity="0.66"/>
+  <ellipse cx="1378" cy="502" rx="34" ry="50" fill="#388e3c" opacity="0.66"/>
+
+  <!-- 施術台 -->
+  <rect x="368" y="418" width="664" height="126" rx="15" fill="white" opacity="0.96"/>
+  <rect x="368" y="418" width="664" height="32" rx="12" fill="url(#tableTop)" opacity="0.9"/>
+  <!-- 台の区切り線 -->
+  <line x1="622" y1="422" x2="622" y2="542" stroke="#e0e0e0" stroke-width="2" opacity="0.55"/>
+  <line x1="778" y1="422" x2="778" y2="542" stroke="#e0e0e0" stroke-width="2" opacity="0.55"/>
+  <!-- 脚 -->
+  <rect x="420" y="544" width="22" height="80" rx="5" fill="#bdbdbd" opacity="0.85"/>
+  <rect x="538" y="544" width="22" height="80" rx="5" fill="#bdbdbd" opacity="0.85"/>
+  <rect x="840" y="544" width="22" height="80" rx="5" fill="#bdbdbd" opacity="0.85"/>
+  <rect x="958" y="544" width="22" height="80" rx="5" fill="#bdbdbd" opacity="0.85"/>
+  <!-- 横棒 -->
+  <rect x="420" y="608" width="140" height="14" rx="5" fill="#9e9e9e" opacity="0.7"/>
+  <rect x="840" y="608" width="140" height="14" rx="5" fill="#9e9e9e" opacity="0.7"/>
+
+  <!-- 枕 -->
+  <ellipse cx="460" cy="424" rx="58" ry="20" fill="white" opacity="0.94"/>
+  <ellipse cx="460" cy="422" rx="52" ry="16" fill="#f5f5f5" opacity="0.98"/>
+
+  <!-- 患者（うつ伏せ）-->
+  <!-- 体幹 -->
+  <ellipse cx="718" cy="432" rx="228" ry="26" fill="#e8c098" opacity="0.86"/>
+  <!-- 足 -->
+  <ellipse cx="918" cy="446" rx="68" ry="20" fill="#d4a070" opacity="0.82"/>
+  <!-- シーツ（腰〜足） -->
+  <path d="M758 444 Q900 440 1005 448 L1005 542 L758 542 Z" fill="#e8f5e9" opacity="0.72"/>
+  <!-- 腕 -->
+  <ellipse cx="718" cy="452" rx="198" ry="8" fill="#d4a070" opacity="0.48"/>
+  <!-- 頭部（顔を向けている） -->
+  <ellipse cx="457" cy="420" rx="50" ry="40" fill="#e8c098" opacity="0.88"/>
+  <!-- 頭髪 -->
+  <ellipse cx="457" cy="404" rx="44" ry="24" fill="#3e2723" opacity="0.76"/>
+  <!-- 背中のタオル -->
+  <rect x="502" y="428" width="452" height="14" rx="5" fill="#e8f5e9" opacity="0.84"/>
+
+  <!-- 施術者（施術台左側に立つ） -->
+  <!-- 靴 -->
+  <ellipse cx="264" cy="650" rx="28" ry="12" fill="#37474f" opacity="0.82"/>
+  <ellipse cx="322" cy="650" rx="28" ry="12" fill="#37474f" opacity="0.82"/>
+  <!-- スクラブパンツ（テール） -->
+  <rect x="248" y="544" width="40" height="106" rx="10" fill="#004d40" opacity="0.82"/>
+  <rect x="306" y="544" width="40" height="106" rx="10" fill="#004d40" opacity="0.82"/>
+  <!-- 白衣（下半身） -->
+  <rect x="236" y="398" width="118" height="152" rx="12" fill="white" opacity="0.96"/>
+  <!-- 白衣（上半身） -->
+  <ellipse cx="295" cy="362" rx="72" ry="92" fill="white" opacity="0.96"/>
+  <!-- 白衣の前開き・ラペル -->
+  <path d="M268 338 L295 368 L322 338" fill="none" stroke="#e0e0e0" stroke-width="2.2"/>
+  <!-- インナー（スクラブ） -->
+  <path d="M282 338 L295 368 L308 338" fill="#26a69a" opacity="0.48"/>
+  <!-- ポケット -->
+  <rect x="326" y="402" width="22" height="18" rx="3" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- 聴診器 -->
+  <path d="M276 340 Q260 354 256 374 Q252 393 265 397 Q278 400 283 388 Q287 374 274 368"
+        fill="none" stroke="#424242" stroke-width="4.5" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="263" cy="398" r="9" fill="#616161" opacity="0.9"/>
+  <circle cx="263" cy="398" r="6" fill="#9e9e9e" opacity="0.9"/>
+
+  <!-- 施術者の腕（患者の背中へ伸ばす） -->
+  <path d="M352 418 Q406 432 488 442" fill="none" stroke="white" stroke-width="30" stroke-linecap="round" opacity="0.96"/>
+  <path d="M342 404 Q416 432 608 442" fill="none" stroke="white" stroke-width="28" stroke-linecap="round" opacity="0.9"/>
+  <!-- 手（患者の背中に） -->
+  <ellipse cx="496" cy="444" rx="28" ry="18" fill="#d4956a" opacity="0.9"/>
+  <ellipse cx="618" cy="444" rx="28" ry="18" fill="#d4956a" opacity="0.87"/>
+
+  <!-- 施術者の首 -->
+  <rect x="281" y="262" width="28" height="44" rx="10" fill="#d4956a" opacity="0.92"/>
+  <!-- 施術者の頭部 -->
+  <ellipse cx="295" cy="228" rx="62" ry="64" fill="#d4956a" opacity="0.92"/>
+  <!-- 髪 -->
+  <path d="M235 220 Q233 160 295 155 Q357 160 355 220 Q349 178 295 180 Q241 178 235 220 Z" fill="#1a0804" opacity="0.9"/>
+  <!-- 耳 -->
+  <ellipse cx="234" cy="240" rx="9" ry="13" fill="#c47a50" opacity="0.9"/>
+  <ellipse cx="356" cy="240" rx="9" ry="13" fill="#c47a50" opacity="0.9"/>
+  <!-- 目（患者を見る） -->
+  <ellipse cx="277" cy="234" rx="10" ry="8" fill="white"/>
+  <ellipse cx="278" cy="236" rx="6" ry="5" fill="#1a0804"/>
+  <ellipse cx="313" cy="234" rx="10" ry="8" fill="white"/>
+  <ellipse cx="314" cy="236" rx="6" ry="5" fill="#1a0804"/>
+  <!-- 眉 -->
+  <path d="M265 222 Q277 218 289 221" fill="none" stroke="#1a0804" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M301 221 Q313 218 325 222" fill="none" stroke="#1a0804" stroke-width="2.8" stroke-linecap="round"/>
+  <!-- 口（集中した穏やかな表情） -->
+  <path d="M276 254 Q295 262 314 254" fill="none" stroke="#9e5535" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- 器具スタンド（右側） -->
+  <rect x="1062" y="358" width="12" height="254" rx="4" fill="#9e9e9e" opacity="0.82"/>
+  <rect x="1002" y="358" width="132" height="12" rx="4" fill="#9e9e9e" opacity="0.82"/>
+  <circle cx="1062" cy="348" r="17" fill="#bdbdbd" opacity="0.72"/>
+  <ellipse cx="1062" cy="612" rx="58" ry="13" fill="#9e9e9e" opacity="0.62"/>
+  <!-- スタンド上のトレー -->
+  <rect x="1010" y="372" width="96" height="72" rx="8" fill="#e8f5e9" opacity="0.84"/>
+  <line x1="1012" y1="390" x2="1104" y2="390" stroke="#a5d6a7" stroke-width="1.5"/>
+  <line x1="1012" y1="408" x2="1104" y2="408" stroke="#a5d6a7" stroke-width="1.5"/>
+  <line x1="1012" y1="426" x2="1104" y2="426" stroke="#a5d6a7" stroke-width="1.5"/>
+
+  <!-- 棚・収納（右奥） -->
+  <rect x="1162" y="398" width="162" height="202" rx="8" fill="white" opacity="0.86"/>
+  <rect x="1164" y="400" width="158" height="198" rx="6" fill="#f9fbe7" opacity="0.92"/>
+  <line x1="1243" y1="400" x2="1243" y2="598" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="1164" y1="498" x2="1322" y2="498" stroke="#e0e0e0" stroke-width="2"/>
+  <circle cx="1228" cy="450" r="5" fill="#bdbdbd"/>
+  <circle cx="1258" cy="450" r="5" fill="#bdbdbd"/>
+  <circle cx="1228" cy="548" r="5" fill="#bdbdbd"/>
+  <circle cx="1258" cy="548" r="5" fill="#bdbdbd"/>
+
+  <!-- 床の影 -->
+  <ellipse cx="700" cy="625" rx="355" ry="28" fill="#b2dfdb" opacity="0.34"/>
+  <ellipse cx="295" cy="658" rx="88" ry="17" fill="#b2dfdb" opacity="0.34"/>
+</svg>
